@@ -1,178 +1,166 @@
-# ClickDesk
+ClickDesk - Sistema de Helpdesk Multiplataforma
 
-A **ClickDesk** é um sistema helpdesk multiplataforma (Web, Desktop e Mobile) desenvolvido com foco em simplicidade, acessibilidade e usabilidade. Inspirada em sistemas profissionais de suporte ao cliente, mas adaptada à realidade de empresas menores, ela funciona como um painel unificado de atendimento e gestão de solicitações.
+ClickDesk é uma solução de helpdesk desenvolvida para empresas de pequeno e médio porte. Com foco em simplicidade, acessibilidade e usabilidade, o ClickDesk é um sistema centralizado para gerenciamento de solicitações, organização de chamados, e otimização do atendimento ao cliente.
 
-O objetivo principal da ClickDesk é facilitar a gestão de chamados e processos internos, oferecendo às empresas:
+🎯 Desafio
 
-- **Organização**: Centralizar pedidos, chamados e tarefas em um único sistema.
-- **Eficiência**: Reduzir ruídos na comunicação e otimizar o tempo de resposta.
-- **Controle**: Permitir acompanhamento em tempo real das demandas e relatórios para tomada de decisão.
-- **Acessibilidade**: Garantir que tanto administradores quanto funcionários consigam utilizar a ferramenta sem complexidade.
+O ClickDesk surgiu para resolver problemas comuns enfrentados por empresas que não têm um sistema de helpdesk estruturado ou estão sobrecarregadas com múltiplos canais de comunicação (e-mails, WhatsApp, etc.), tais como:
 
----
+Desorganização dos chamados: Solicitações se perdem em múltiplos canais.
 
-## 🟢 Status do Projeto
+Falta de rastreabilidade: Dificuldade em acompanhar o andamento dos chamados e histórico.
 
-[![Status](https://img.shields.io/badge/Status-Em%20Andamento-green)](https://www.youtube.com/shorts/bzwvZzVCDts)
-[![Versão](https://img.shields.io/badge/Versão-1.0.0-blue)](https://www.youtube.com/watch?v=EwW-e9W8fwg)
+Baixa eficiência no atendimento: Chamados repetidos, esquecidos ou mal priorizados.
 
-O projeto ClickDesk está em fase de desenvolvimento ativo, com foco na implementação das funcionalidades principais e na integração entre as plataformas.
+Ausência de relatórios gerenciais: Falta de dados para avaliar desempenho e gargalos.
 
----
+💡 Solução
 
-## 💡 O Desafio
+O ClickDesk oferece uma plataforma única e intuitiva para empresas gerenciarem todos os seus chamados em um só lugar. A solução inclui:
 
-A ClickDesk surgiu para resolver problemas comuns enfrentados por pequenas empresas e equipes que não possuem um sistema estruturado de helpdesk ou de comunicação interna, tais como:
+Centralização de Chamados: Organize todas as solicitações em um único painel.
 
-- Desorganização dos chamados (solicitações se perdem em e-mails, WhatsApp ou bilhetes).
-- Falta de rastreabilidade (dificuldade em acompanhar o andamento e histórico das solicitações).
-- Baixa eficiência no atendimento (chamados repetidos, esquecidos ou mal priorizados).
-- Carência de relatórios gerenciais (para avaliar desempenho, gargalos e melhorias).
+Eficiência no Atendimento: Otimize o tempo de resposta e evite chamados duplicados.
 
----
+Acompanhamento em Tempo Real: Monitore o andamento de todos os chamados e tarefas.
 
-## 🧑‍🤝‍🧑 Autores e Contribuidores
+Relatórios Gerenciais: Obtenha insights sobre o desempenho do time e possíveis gargalos.
 
-| Nome do Contribuidor | Função no Projeto | GitHub ou LinkedIn |
-|----------------------|-------------------|--------------------|
-| André Barbosa | Líder do Projeto/Product Owner | https://www.youtube.com/watch?v=vKY9N0tuz70 |
-| Erika Cordeiro | Desenvolvedora Desktop/Scrum Master | https://www.facebook.com/public/Erica-Perfil/?locale=pt_BR |
-| Vinicius Fagundes | Desenvolvedor Mobile/Web | https://www.transfermarkt.pt/vinicius-junior/profil/spieler/371998 |
-| Kaique Uchoa | Desenvolvedor Desktop/Mobile | https://www.instagram.com/kaykysc10/?hl=en |
+Acessibilidade: Fácil de usar tanto para administradores quanto para funcionários.
 
----
+📋 Backlog do Produto
+Funcionalidades Principais
+Funcionalidade	Status	Prioridade	Descrição
+Sistema de login e registro de usuários	Em Desenvolvimento	Alta	Permite a autenticação dos usuários para garantir segurança.
+Sistema de rastreabilidade de chamados	Pendente	Alta	Organiza chamados em tempo real e mantém um histórico detalhado.
+Notificações em tempo real	Pendente	Alta	Alerta os usuários sobre novos chamados e atualizações.
+Relatórios de desempenho	Pendente	Média	Oferece gráficos e relatórios de desempenho do time.
+🏃‍ Cronograma de Sprints
 
-## 🗓️ Cronograma de Sprints
+O cronograma das sprints será acompanhado através dos seguintes links. Clique nos links abaixo para acompanhar o progresso de cada sprint:
 
-Acompanhe o planejamento e o andamento das nossas sprints, tarefas e objetivos em tempo real:
-> **[Acesse nosso Cronograma de Sprints aqui](https://www.notion.com/pt/help/guides/sprints-simplified-notions-sprint-tracking-system)**
+Sprint 1 - 01/10 a 15/10
+: Implementação da interface de login e sistema de autenticação.
 
----
+Sprint 2 - 16/10 a 30/10
+: Desenvolvimento do sistema de rastreabilidade e painel de chamados.
 
-## 💻 Tecnologias
+Sprint 3 - 01/11 a 15/11
+: Implementação das notificações em tempo real e funcionalidades de relatórios.
 
-### Tecnologias Principais
-- 🌐 **C#**: Linguagem principal para o backend da aplicação.
-- 💾 **SQL Server**: Sistema de gerenciamento do banco de dados.
-- 🌳 **Git**: Para controle de versão e colaboração.
-- 📝 **HTML**, **CSS** e **JavaScript**: Linguagens fundamentais para o desenvolvimento web.
+💻 Tecnologias
 
-### Tecnologias por Plataforma
-- **Web**:
-  - ⚛️ **React**: Biblioteca para a interface da aplicação Web.
-  - 🚀 **Next.js**: Framework para a aplicação Web.
-  - 💅 **Tailwind CSS**: Framework CSS para estilização.
-- **Desktop**:
-  - 🖥️ **Electron**: Framework para construir aplicativos de desktop com tecnologias web.
-- **Mobile**:
-  - 📱 **React Native**: Framework para construir aplicativos mobile.
+Backend:
 
----
+C#: Linguagem principal para o desenvolvimento da API.
 
-## 📁 Estrutura do Projeto
+SQL Server: Sistema de gerenciamento do banco de dados.
 
-A arquitetura do projeto segue um modelo de monorepo, com cada plataforma em sua própria pasta, facilitando a gestão de código e dependências.
+ASP.NET Core: Framework para o desenvolvimento da API.
 
-ClickDesk/
-├── apps/
-│   ├── web/        # Aplicação Web
-│   ├── desktop/    # Aplicação Desktop
-│   └── mobile/     # Aplicação Mobile
-├── packages/       # Código compartilhado
-│   ├── ui/
-│   └── core/
-├── .gitignore
-├── package.json
-└── README.md
+SignalR: Para notificações em tempo real.
+
+Frontend:
+
+React: Biblioteca JavaScript para construção da interface web.
+
+Next.js: Framework React para construção da aplicação web.
+
+Tailwind CSS: Framework CSS para estilização da interface.
+
+Desktop:
+
+Electron: Framework para construção de aplicações desktop com tecnologias web.
+
+Mobile:
+
+React Native: Framework para criação de aplicativos móveis.
+
+📖 Manual de Instalação e Execução
+Pré-requisitos
+
+Antes de iniciar, certifique-se de ter os seguintes requisitos instalados:
+
+Node.js (versão 16+): Para execução do código frontend.
+
+Git: Para clonar o repositório.
+
+SQL Server: Para rodar o banco de dados local.
+
+Yarn ou NPM: Gerenciador de pacotes.
+
+Instalação
+
+Clone o repositório:
+
+git clone https://github.com/seuusuario/ClickDesk.git
+cd ClickDesk
 
 
----
-
-## 🚀 Manual de Instalação e Execução
-
-### Pré-requisitos
-- **Node.js**: Versão mais recente.
-- **Git**: Para clonar o repositório.
-- **Yarn** ou **NPM**: Gerenciador de pacotes.
-
-### Instalação
-1. Clone o repositório do projeto:
-   ```bash
-   git clone [https://www.youtube.com/watch?v=GRf6so_sois](https://www.youtube.com/watch?v=GRf6so_sois)
-Navegue até o diretório principal:
-
-Bash
-
-cd [nome-da-pasta-do-seu-projeto]
 Instale as dependências:
+Para o frontend:
 
-Bash
-
+cd apps/web
 npm install
-Executando as Aplicações
-Siga as instruções abaixo para iniciar cada versão da aplicação separadamente.
 
-Versão Web
 
-Bash
+Para o backend:
+
+cd backend
+dotnet restore
+dotnet build
+
+
+Configuração do Banco de Dados:
+
+Crie um banco de dados no SQL Server e configure a string de conexão no arquivo .env.
+
+Executando a Aplicação:
+
+Para Web:
 
 cd apps/web
 npm run dev
-Versão Desktop
 
-Bash
+
+Para Desktop:
 
 cd apps/desktop
 npm start
-Versão Mobile
 
-Bash
+
+Para Mobile:
 
 cd apps/mobile
-npm run android # ou `npm run ios` para iOS
-📜 Backlog
-[Este é o seu backlog de próximas funcionalidades e melhorias. Mantenha esta lista atualizada para que outros saibam o que está por vir.]
+npm run android  # ou npm run ios para iOS
 
-Funcionalidade	Status	Prioridade
-Sistema de priorização de chamados	Pendente	Alta
-Módulo de chat em tempo real entre os usuários	Pendente	Média
-Funcionalidade de anexar arquivos aos chamados	Em Análise	Média
-Criação de um dashboard administrativo com KPIs	Pendente	Alta
+🧑‍🤝‍🧑 Equipe
+Membro	Função	GitHub/LinkedIn
+André Barbosa	Líder do Projeto / Product Owner	GitHub
 
-Exportar para as Planilhas
-⚙️ Configuração
-Para que a aplicação funcione corretamente, é necessário configurar as variáveis de ambiente.
+Erika Cordeiro	Desenvolvedora Desktop / Scrum Master	LinkedIn
 
-Crie um arquivo .env na raiz do projeto.
+Vinicius Fagundes	Desenvolvedor Mobile/Web	GitHub
 
-Copie o conteúdo do .env.example e preencha as variáveis com suas informações:
+Kaique Uchoa	Desenvolvedor Desktop/Mobile	LinkedIn
+📝 Licença
 
-Ini, TOML
+Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE
+ para mais detalhes.
 
-# Variáveis de ambiente
-API_URL=http://localhost:4000/api
-DATABASE_CONNECTION_STRING=seu-sql-server-connection-string
-✨ Funcionalidades
-Sistema completo de login e registro de usuários.
+🔧 Como Contribuir
 
-Sincronização de dados em tempo real entre todas as plataformas.
+Fork o repositório.
 
-Painel de controle para criação, edição e exclusão de chamados.
+Crie sua branch de feature (git checkout -b feature/nova-feature).
 
-Relatórios gerenciais e gráficos de desempenho.
+Commit suas mudanças (git commit -m 'Adiciona nova feature').
 
-Notificações em tempo real para novas solicitações.
+Push para a branch (git push origin feature/nova-feature).
 
-📄 Licença
-Este projeto está sob a licença [Nome da Licença, ex: MIT].
+Abra uma pull request.
 
+🎓 Documentação Completa
 
-Aliás, para liberar as funcionalidades de todos os apps, ative a [Atividade nos apps do Gemini](https://myactivity.google.com/product/gemini).
-
-
-
-
-
-
-
-O Gemini pode cometer erros. Por isso, é bom checar as respostas.
+Para mais detalhes sobre a arquitetura, funcionamento e implementação do sistema, consulte a documentação completa do projeto no Wiki do GitHub
+.
