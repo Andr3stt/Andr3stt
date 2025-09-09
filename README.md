@@ -1,9 +1,3 @@
-ClickDesk - Sistema de Helpdesk Multiplataforma
-
-ClickDesk é uma solução de helpdesk desenvolvida para empresas de pequeno e médio porte. Com foco em simplicidade, acessibilidade e usabilidade, o ClickDesk é um sistema centralizado para gerenciamento de solicitações, organização de chamados, e otimização do atendimento ao cliente.
-
-🎯 Desafio
-
 O ClickDesk surgiu para resolver problemas comuns enfrentados por empresas que não têm um sistema de helpdesk estruturado ou estão sobrecarregadas com múltiplos canais de comunicação (e-mails, WhatsApp, etc.), tais como:
 
 Desorganização dos chamados: Solicitações se perdem em múltiplos canais.
@@ -18,13 +12,13 @@ Ausência de relatórios gerenciais: Falta de dados para avaliar desempenho e ga
 
 O ClickDesk oferece uma plataforma única e intuitiva para empresas gerenciarem todos os seus chamados em um só lugar. A solução inclui:
 
-Centralização de Chamados: Organize todas as solicitações em um único painel.
+Centralização de Chamados: Organiza todas as solicitações em um único painel.
 
-Eficiência no Atendimento: Otimize o tempo de resposta e evite chamados duplicados.
+Eficiência no Atendimento: Otimiza o tempo de resposta e evita chamados duplicados.
 
-Acompanhamento em Tempo Real: Monitore o andamento de todos os chamados e tarefas.
+Acompanhamento em Tempo Real: Monitora o andamento de todos os chamados e tarefas.
 
-Relatórios Gerenciais: Obtenha insights sobre o desempenho do time e possíveis gargalos.
+Relatórios Gerenciais: Oferece gráficos e relatórios de desempenho do time.
 
 Acessibilidade: Fácil de usar tanto para administradores quanto para funcionários.
 
@@ -49,7 +43,6 @@ Sprint 3 - 01/11 a 15/11
 : Implementação das notificações em tempo real e funcionalidades de relatórios.
 
 💻 Tecnologias
-
 Backend:
 
 C#: Linguagem principal para o desenvolvimento da API.
@@ -98,6 +91,7 @@ cd ClickDesk
 
 
 Instale as dependências:
+
 Para o frontend:
 
 cd apps/web
@@ -164,3 +158,5 @@ Abra uma pull request.
 
 Para mais detalhes sobre a arquitetura, funcionamento e implementação do sistema, consulte a documentação completa do projeto no Wiki do GitHub
 .
+
+Considerações Finais
