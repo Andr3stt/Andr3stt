@@ -29,14 +29,14 @@ O **ClickDesk** oferece uma plataforma única e intuitiva para empresas gerencia
 
 ## 📋 **Backlog do Produto**
 
-### **Funcionalidades Principais**
+### Funcionalidades Principais
 
 | **Funcionalidade**                                | **Status**          | **Prioridade** | **Descrição** |
 |---------------------------------------------------|---------------------|----------------|---------------|
-| Sistema de login e registro de usuários           | Em Desenvolvimento  | Alta           | Permite a autenticação dos usuários para garantir segurança. |
-| Sistema de rastreabilidade de chamados            | Pendente            | Alta           | Organiza chamados em tempo real e mantém um histórico detalhado. |
-| Notificações em tempo real                        | Pendente            | Alta           | Alerta os usuários sobre novos chamados e atualizações. |
-| Relatórios de desempenho                          | Pendente            | Média          | Oferece gráficos e relatórios de desempenho do time. |
+| **Sistema de login e registro de usuários**       | Em Desenvolvimento  | Alta           | Permite a autenticação dos usuários para garantir segurança. |
+| **Sistema de rastreabilidade de chamados**        | Pendente            | Alta           | Organiza chamados em tempo real e mantém um histórico detalhado. |
+| **Notificações em tempo real**                    | Pendente            | Alta           | Alerta os usuários sobre novos chamados e atualizações. |
+| **Relatórios de desempenho**                      | Pendente            | Média          | Oferece gráficos e relatórios de desempenho do time. |
 
 ---
 
@@ -92,33 +92,35 @@ Antes de iniciar, certifique-se de ter os seguintes requisitos instalados:
    ```bash
    git clone https://github.com/seuusuario/ClickDesk.git
    cd ClickDesk
-Instale as dependências:
+### **Instale as dependências:**
 
-Para o frontend:
+### **Para o frontend:**
 
-bash
-Copiar código
-cd apps/web
-npm install
-Para o backend:
+- bash
+- Copiar código
+- cd apps/web
+- npm install
 
-bash
-Copiar código
-cd backend
-dotnet restore
-dotnet build
-Configuração do Banco de Dados:
+### **Para o backend:**
 
-Crie um banco de dados no SQL Server e configure a string de conexão no arquivo .env.
+- bash
+- Copiar código
+- cd backend
+- dotnet restore
+- dotnet build
+- Configuração do Banco de Dados:
 
-Executando a Aplicação:
+### **Crie um banco de dados no SQL Server e configure a string de conexão no arquivo .env**
 
-Para Web:
+### **Executando a Aplicação:**
 
-bash
-Copiar código
-cd apps/web
-npm run dev
+### **Para Web:**
+
+- bash
+- Copiar código
+- cd apps/web
+- npm run dev
+
 Para Desktop:
 
 bash
