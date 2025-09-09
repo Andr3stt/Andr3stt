@@ -1,4 +1,4 @@
-  # ClickDesk
+# ClickDesk
 
 A **ClickDesk** é um sistema helpdesk multiplataforma (Web, Desktop e Mobile) desenvolvido com foco em simplicidade, acessibilidade e usabilidade. Inspirada em sistemas profissionais de suporte ao cliente, mas adaptada à realidade de empresas menores, ela funciona como um painel unificado de atendimento e gestão de solicitações.
 
@@ -8,6 +8,15 @@ O objetivo principal da ClickDesk é facilitar a gestão de chamados e processos
 - **Eficiência**: Reduzir ruídos na comunicação e otimizar o tempo de resposta.
 - **Controle**: Permitir acompanhamento em tempo real das demandas e relatórios para tomada de decisão.
 - **Acessibilidade**: Garantir que tanto administradores quanto funcionários consigam utilizar a ferramenta sem complexidade.
+
+---
+
+## 🟢 Status do Projeto
+
+[![Status](https://img.shields.io/badge/Status-Em%20Andamento-green)](https://www.youtube.com/shorts/bzwvZzVCDts)
+[![Versão](https://img.shields.io/badge/Versão-1.0.0-blue)](https://www.youtube.com/watch?v=EwW-e9W8fwg)
+
+O projeto ClickDesk está em fase de desenvolvimento ativo, com foco na implementação das funcionalidades principais e na integração entre as plataformas.
 
 ---
 
@@ -63,13 +72,3 @@ Acompanhe o planejamento e o andamento das nossas sprints, tarefas e objetivos e
 ## 📁 Estrutura do Projeto
 
 A arquitetura do projeto segue um modelo de monorepo, com cada plataforma em sua própria pasta, facilitando a gestão de código e dependências.
-
-Ini, TOML
-
-API_URL=http://localhost:4000/api
-S3_BUCKET=seu-bucket-de-arquivos
-📄 Licença
-Este projeto está sob a licença [Nome da Licença, ex: MIT].
-
-
-Este template está pronto para ser preenchido e já segue as melhores práticas de documentação para projetos em equipe.
