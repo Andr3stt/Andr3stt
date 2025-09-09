@@ -1,5 +1,3 @@
-Markdown
-
 # ClickDesk
 
 A **ClickDesk** é um sistema helpdesk multiplataforma (Web, Desktop e Mobile) desenvolvido com foco em simplicidade, acessibilidade e usabilidade. Inspirada em sistemas profissionais de suporte ao cliente, mas adaptada à realidade de empresas menores, ela funciona como um painel unificado de atendimento e gestão de solicitações.
@@ -132,28 +130,16 @@ Bash
 
 cd apps/mobile
 npm run android # ou `npm run ios` para iOS
-✨ Funcionalidades
-Sistema completo de login e registro de usuários.
-
-Sincronização de dados em tempo real entre todas as plataformas.
-
-Painel de controle para criação, edição e exclusão de chamados.
-
-Relatórios gerenciais e gráficos de desempenho.
-
-Notificações em tempo real para novas solicitações.
-
 📜 Backlog
 [Este é o seu backlog de próximas funcionalidades e melhorias. Mantenha esta lista atualizada para que outros saibam o que está por vir.]
 
-[ ] Sistema de priorização de chamados.
+Funcionalidade	Status	Prioridade
+Sistema de priorização de chamados	Pendente	Alta
+Módulo de chat em tempo real entre os usuários	Pendente	Média
+Funcionalidade de anexar arquivos aos chamados	Em Análise	Média
+Criação de um dashboard administrativo com KPIs	Pendente	Alta
 
-[ ] Módulo de chat em tempo real entre os usuários.
-
-[ ] Funcionalidade de anexar arquivos aos chamados.
-
-[ ] Criação de um dashboard administrativo com KPIs.
-
+Exportar para as Planilhas
 ⚙️ Configuração
 Para que a aplicação funcione corretamente, é necessário configurar as variáveis de ambiente.
 
@@ -166,8 +152,27 @@ Ini, TOML
 # Variáveis de ambiente
 API_URL=http://localhost:4000/api
 DATABASE_CONNECTION_STRING=seu-sql-server-connection-string
+✨ Funcionalidades
+Sistema completo de login e registro de usuários.
+
+Sincronização de dados em tempo real entre todas as plataformas.
+
+Painel de controle para criação, edição e exclusão de chamados.
+
+Relatórios gerenciais e gráficos de desempenho.
+
+Notificações em tempo real para novas solicitações.
+
 📄 Licença
 Este projeto está sob a licença [Nome da Licença, ex: MIT].
 
 
 Aliás, para liberar as funcionalidades de todos os apps, ative a [Atividade nos apps do Gemini](https://myactivity.google.com/product/gemini).
+
+
+
+
+
+
+
+O Gemini pode cometer erros. Por isso, é bom checar as respostas.
