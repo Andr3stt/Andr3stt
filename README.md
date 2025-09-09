@@ -1,3 +1,5 @@
+Markdown
+
 # ClickDesk
 
 A **ClickDesk** é um sistema helpdesk multiplataforma (Web, Desktop e Mobile) desenvolvido com foco em simplicidade, acessibilidade e usabilidade. Inspirada em sistemas profissionais de suporte ao cliente, mas adaptada à realidade de empresas menores, ela funciona como um painel unificado de atendimento e gestão de solicitações.
@@ -72,3 +74,100 @@ Acompanhe o planejamento e o andamento das nossas sprints, tarefas e objetivos e
 ## 📁 Estrutura do Projeto
 
 A arquitetura do projeto segue um modelo de monorepo, com cada plataforma em sua própria pasta, facilitando a gestão de código e dependências.
+
+ClickDesk/
+├── apps/
+│   ├── web/        # Aplicação Web
+│   ├── desktop/    # Aplicação Desktop
+│   └── mobile/     # Aplicação Mobile
+├── packages/       # Código compartilhado
+│   ├── ui/
+│   └── core/
+├── .gitignore
+├── package.json
+└── README.md
+
+
+---
+
+## 🚀 Manual de Instalação e Execução
+
+### Pré-requisitos
+- **Node.js**: Versão mais recente.
+- **Git**: Para clonar o repositório.
+- **Yarn** ou **NPM**: Gerenciador de pacotes.
+
+### Instalação
+1. Clone o repositório do projeto:
+   ```bash
+   git clone [https://www.youtube.com/watch?v=GRf6so_sois](https://www.youtube.com/watch?v=GRf6so_sois)
+Navegue até o diretório principal:
+
+Bash
+
+cd [nome-da-pasta-do-seu-projeto]
+Instale as dependências:
+
+Bash
+
+npm install
+Executando as Aplicações
+Siga as instruções abaixo para iniciar cada versão da aplicação separadamente.
+
+Versão Web
+
+Bash
+
+cd apps/web
+npm run dev
+Versão Desktop
+
+Bash
+
+cd apps/desktop
+npm start
+Versão Mobile
+
+Bash
+
+cd apps/mobile
+npm run android # ou `npm run ios` para iOS
+✨ Funcionalidades
+Sistema completo de login e registro de usuários.
+
+Sincronização de dados em tempo real entre todas as plataformas.
+
+Painel de controle para criação, edição e exclusão de chamados.
+
+Relatórios gerenciais e gráficos de desempenho.
+
+Notificações em tempo real para novas solicitações.
+
+📜 Backlog
+[Este é o seu backlog de próximas funcionalidades e melhorias. Mantenha esta lista atualizada para que outros saibam o que está por vir.]
+
+[ ] Sistema de priorização de chamados.
+
+[ ] Módulo de chat em tempo real entre os usuários.
+
+[ ] Funcionalidade de anexar arquivos aos chamados.
+
+[ ] Criação de um dashboard administrativo com KPIs.
+
+⚙️ Configuração
+Para que a aplicação funcione corretamente, é necessário configurar as variáveis de ambiente.
+
+Crie um arquivo .env na raiz do projeto.
+
+Copie o conteúdo do .env.example e preencha as variáveis com suas informações:
+
+Ini, TOML
+
+# Variáveis de ambiente
+API_URL=http://localhost:4000/api
+DATABASE_CONNECTION_STRING=seu-sql-server-connection-string
+📄 Licença
+Este projeto está sob a licença [Nome da Licença, ex: MIT].
+
+
+Aliás, para liberar as funcionalidades de todos os apps, ative a [Atividade nos apps do Gemini](https://myactivity.google.com/product/gemini).
