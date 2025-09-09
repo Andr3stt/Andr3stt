@@ -143,17 +143,18 @@ Kaique Uchoa	Desenvolvedor Desktop/Mobile	LinkedIn
 📝 Licença
 Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
 
-🔧 Como Contribuir
+### **🔧 Como Contribuir**
+
 Fork o repositório.
 
-Crie sua branch de feature (git checkout -b feature/nova-feature).
+- Crie sua branch de feature (git checkout -b feature/nova-feature).
 
-Commit suas mudanças (git commit -m 'Adiciona nova feature').
+- Commit suas mudanças (git commit -m 'Adiciona nova feature').
 
-Push para a branch (git push origin feature/nova-feature).
+- Push para a branch (git push origin feature/nova-feature).
 
-Abra uma pull request.
+- Abra uma pull request.
 
-🎓 Documentação Completa
+### **🎓 Documentação Completa**
 Para mais detalhes sobre a arquitetura, funcionamento e implementação do sistema, consulte a documentação completa do projeto no Wiki do GitHub.
 
