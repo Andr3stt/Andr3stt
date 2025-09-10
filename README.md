@@ -16,14 +16,15 @@ Markdown
 ### 📖 Índice
 * [O Desafio](#-desafio)
 * [A Solução](#-solução)
+* [Equipe do Projeto](#-equipe)
+* [Como Contribuir](#-como-contribuir)
+* [Licença](#-licença)
 * [Telas da Aplicação](#-telas-da-aplicação)
 * [Backlog do Produto](#-backlog-do-produto)
 * [Cronograma de Sprints](#-cronograma-de-sprints)
 * [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 * [Guia de Instalação](#-manual-de-instalação-e-execução)
-* [Equipe do Projeto](#-equipe)
-* [Como Contribuir](#-como-contribuir)
-* [Licença](#-licença)
+
 
 ---
 
@@ -44,6 +45,30 @@ O ClickDesk oferece uma plataforma única e intuitiva para gerenciar todos os ch
 - **Acompanhamento em Tempo Real:** Monitore o andamento de todos os chamados.
 - **Relatórios Gerenciais:** Gráficos e relatórios de desempenho do time.
 - **Acessibilidade:** Fácil de usar para administradores e funcionários.
+
+## 🧑‍🤝‍🧑 Equipe
+
+| Membro | Função | Contato |
+|---|---|---|
+| **André Barbosa** | Líder do Projeto / Product Owner | [GitHub](LINK_GITHUB_AQUI) |
+| **Erika Cordeiro** | Desenvolvedora Desktop / Scrum Master | [LinkedIn](LINK_LINKEDIN_AQUI) |
+| **Vinicius Fagundes** | Desenvolvedor Mobile/Web | [GitHub](LINK_GITHUB_AQUI) |
+| **Kaique Uchoa** | Desenvolvedor Desktop/Mobile | [LinkedIn](LINK_LINKEDIN_AQUI) |
+
+## 🔧 Como Contribuir
+
+Se deseja contribuir com o projeto, siga os passos abaixo:
+
+1.  **Fork** este repositório.
+2.  Crie sua branch de feature: `git checkout -b feature/sua-nova-feature`
+3.  Faça o commit de suas mudanças: `git commit -m 'Adiciona nova feature'`
+4.  Faça o push para a branch: `git push origin feature/sua-nova-feature`
+5.  Abra uma **Pull Request**.
+
+## 📝 Licença
+Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LINK_PARA_ARQUIVO_LICENSE) para mais detalhes.
+
+---
 
 ## 🖼️ Telas da Aplicação
 <p align="center">
@@ -137,46 +162,24 @@ Para executar o projeto, você precisará ter um terminal para o backend e um pa
   ```bash
   cd backend
   dotnet run
-Web:
-
-Bash
+   ```
+- **Web:**
+ ```bash
 
 cd apps/web
 npm run dev
-Desktop:
 
-Bash
+   ```
+- **Desktop:**
+ ```bash
 
 cd apps/desktop
 npm start
-Mobile:
 
-Bash
-
+   ```
+- **Mobile:**
+ ```bash
 cd apps/mobile
 npm run android
 # ou npm run ios
 
-🧑‍🤝‍🧑 Equipe
-Membro	Função	Contato
-André Barbosa	Líder do Projeto / Product Owner	GitHub
-Erika Cordeiro	Desenvolvedora Desktop / Scrum Master	LinkedIn
-Vinicius Fagundes	Desenvolvedor Mobile/Web	GitHub
-Kaique Uchoa	Desenvolvedor Desktop/Mobile	LinkedIn
-
-Exportar para as Planilhas
-🔧 Como Contribuir
-Se deseja contribuir com o projeto, siga os passos abaixo:
-
-Fork este repositório.
-
-Crie sua branch de feature: git checkout -b feature/sua-nova-feature
-
-Faça o commit de suas mudanças: git commit -m 'Adiciona nova feature'
-
-Faça o push para a branch: git push origin feature/sua-nova-feature
-
-Abra uma Pull Request.
-
-📝 Licença
-Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
