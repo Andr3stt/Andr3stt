@@ -93,39 +93,50 @@ Antes de iniciar, certifique-se de ter instalado:
 - [SQL Server](https://www.microsoft.com/sql-server/sql-server-downloads)
 
 #### Passos de Instalação
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/seuusuario/ClickDesk.git](https://github.com/seuusuario/ClickDesk.git)
-   cd ClickDesk
-Instale as dependências do Backend:
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/seuusuario/ClickDesk.git](https://github.com/seuusuario/ClickDesk.git)
+    cd ClickDesk
+    ```
 
-Bash
+2.  **Instale as dependências do Backend:**
+    ```bash
+    cd backend
+    dotnet restore
+    ```
 
-cd backend
-dotnet restore
-Instale as dependências do Frontend (Web):
+3.  **Instale as dependências do Frontend (Web, Desktop e Mobile):**
+    ```bash
+    # Para a aplicação Web
+    cd apps/web
+    npm install
 
-Bash
+    # Para a aplicação Desktop
+    cd ../desktop 
+    npm install
 
-cd apps/web
-npm install
-(Repita o passo de npm install para as pastas desktop e mobile)
+    # Para a aplicação Mobile
+    cd ../mobile
+    npm install
+    ```
 
-Configure o Banco de Dados:
+4.  **Configure o Banco de Dados:**
+    - Crie um banco de dados no **SQL Server**.
+    - Configure a sua string de conexão no arquivo `appsettings.json` do projeto backend.
+    - Execute as migrações para criar as tabelas:
+      ```bash
+      cd backend
+      dotnet ef database update
+      ```
 
-Crie um banco de dados no SQL Server.
+#### Executando a Aplicação
 
-Configure a string de conexão no arquivo appsettings.json do backend.
+Para executar o projeto, você precisará ter um terminal para o backend e um para cada frontend que desejar iniciar.
 
-Execute as migrações: dotnet ef database update
-
-Executando a Aplicação
-Backend:
-
-Bash
-
-cd backend
-dotnet run
+- **Backend:**
+  ```bash
+  cd backend
+  dotnet run
 Web:
 
 Bash
@@ -145,6 +156,7 @@ Bash
 cd apps/mobile
 npm run android
 # ou npm run ios
+
 🧑‍🤝‍🧑 Equipe
 Membro	Função	Contato
 André Barbosa	Líder do Projeto / Product Owner	GitHub
@@ -154,15 +166,17 @@ Kaique Uchoa	Desenvolvedor Desktop/Mobile	LinkedIn
 
 Exportar para as Planilhas
 🔧 Como Contribuir
-Fork o repositório.
+Se deseja contribuir com o projeto, siga os passos abaixo:
 
-Crie sua branch de feature: git checkout -b feature/nova-feature
+Fork este repositório.
 
-Commit suas mudanças: git commit -m 'Adiciona nova feature'
+Crie sua branch de feature: git checkout -b feature/sua-nova-feature
 
-Push para a branch: git push origin feature/nova-feature
+Faça o commit de suas mudanças: git commit -m 'Adiciona nova feature'
+
+Faça o push para a branch: git push origin feature/sua-nova-feature
 
 Abra uma Pull Request.
 
 📝 Licença
-Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
