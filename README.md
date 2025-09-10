@@ -1,5 +1,3 @@
-Markdown
-
 <p align="center">
   <img src="URL_DO_SEU_LOGO_AQUI" alt="Logo ClickDesk" width="200"/>
 </p>
@@ -25,7 +23,6 @@ Markdown
 * [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 * [Guia de Instalação](#-manual-de-instalação-e-execução)
 
-
 ---
 
 **ClickDesk** é uma solução de helpdesk desenvolvida para empresas de pequeno e médio porte. Com foco em **simplicidade**, **acessibilidade** e **usabilidade**, o ClickDesk é um sistema centralizado para gerenciamento de solicitações, organização de chamados, e otimização do atendimento ao cliente.
@@ -48,12 +45,12 @@ O ClickDesk oferece uma plataforma única e intuitiva para gerenciar todos os ch
 
 ## 🧑‍🤝‍🧑 Equipe
 
-| Membro | Função | Contato |
+| Membro | Função | GitHub |
 |---|---|---|
 | **André Barbosa** | Líder do Projeto / Product Owner | [GitHub](LINK_GITHUB_AQUI) |
-| **Erika Cordeiro** | Desenvolvedora Desktop / Scrum Master | [LinkedIn](LINK_LINKEDIN_AQUI) |
+| **Erika Cordeiro** | Desenvolvedora Desktop / Scrum Master | [GitHub](LINK_GITHUB_AQUI) |
 | **Vinicius Fagundes** | Desenvolvedor Mobile/Web | [GitHub](LINK_GITHUB_AQUI) |
-| **Kaique Uchoa** | Desenvolvedor Desktop/Mobile | [LinkedIn](LINK_LINKEDIN_AQUI) |
+| **Kaique Uchoa** | Desenvolvedor Desktop/Mobile | [GitHub](LINK_GITHUB_AQUI) |
 
 ## 🔧 Como Contribuir
 
@@ -83,6 +80,16 @@ Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LINK_P
 | Sistema de rastreabilidade de chamados | ⏳ Pendente | Alta | Organiza chamados em tempo real e mantém um histórico detalhado. |
 | Notificações em tempo real | ⏳ Pendente | Alta | Alerta os usuários sobre novos chamados e atualizações. |
 | Relatórios de desempenho | ⏳ Pendente | Média | Oferece gráficos e relatórios de desempenho do time. |
+| Controle de permissões | ⏳ Pendente | Alta | Diferencia perfis (administrador, agente, cliente). |
+| Histórico de interações | ⏳ Pendente | Alta | Registra todas as ações realizadas em cada chamado. |
+| Dashboard gerencial | ⏳ Pendente | Média | Exibe indicadores de produtividade e SLAs. |
+| Integração com e-mail | ⏳ Pendente | Média | Permite abertura e atualização de chamados via e-mail. |
+| Pesquisa de satisfação | ⏳ Pendente | Baixa | Coleta feedback dos clientes após a resolução. |
+| Exportação de relatórios (CSV/Excel) | ⏳ Pendente | Baixa | Permite exportar métricas e relatórios em planilhas. |
+| Integração com chat corporativo | ⏳ Pendente | Média | Notificações e abertura de chamados pelo Teams/Slack. |
+| Base de conhecimento (FAQ) | ⏳ Pendente | Média | Central de artigos e tutoriais para autoatendimento. |
+| Multicanal (telefone, chat, e-mail) | ⏳ Pendente | Alta | Reúne chamados de diferentes canais em um só lugar. |
+| Relatórios personalizados | ⏳ Pendente | Média | Usuários podem montar relatórios sob demanda. |
 
 ## 🏃‍ Cronograma de Sprints
 
@@ -120,7 +127,7 @@ Antes de iniciar, certifique-se de ter instalado:
 #### Passos de Instalação
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seuusuario/ClickDesk.git](https://github.com/seuusuario/ClickDesk.git)
+    git clone https://github.com/seuusuario/ClickDesk.git
     cd ClickDesk
     ```
 
@@ -153,6 +160,16 @@ Antes de iniciar, certifique-se de ter instalado:
       cd backend
       dotnet ef database update
       ```
+
+#### Executando a Aplicação
+
+Para executar o projeto, você precisará ter um terminal para o backend e um para cada frontend que desejar iniciar.
+
+- **Backend:**
+  ```bash
+  cd backend
+  dotnet run
+
 
 #### Executando a Aplicação
 
