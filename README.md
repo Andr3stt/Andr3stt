@@ -1,160 +1,168 @@
-# ClickDesk - Sistema de Helpdesk Multiplataforma
+Markdown
 
-**ClickDesk** é uma solução de **helpdesk** desenvolvida para empresas de pequeno e médio porte. Com foco em **simplicidade**, **acessibilidade** e **usabilidade**, o ClickDesk é um sistema centralizado para gerenciamento de solicitações, organização de chamados, e otimização do atendimento ao cliente.
+<p align="center">
+  <img src="URL_DO_SEU_LOGO_AQUI" alt="Logo ClickDesk" width="200"/>
+</p>
 
----
+<h1 align="center">ClickDesk - Sistema de Helpdesk Multiplataforma</h1>
 
-## 🎯 **Desafio**
-
-O **ClickDesk** surgiu para resolver problemas comuns enfrentados por empresas que não têm um sistema de helpdesk estruturado ou estão sobrecarregadas com múltiplos canais de comunicação (e-mails, WhatsApp, etc.), tais como:
-
-- **Desorganização dos chamados**: Solicitações se perdem em múltiplos canais.
-- **Falta de rastreabilidade**: Dificuldade em acompanhar o andamento dos chamados e histórico.
-- **Baixa eficiência no atendimento**: Chamados repetidos, esquecidos ou mal priorizados.
-- **Ausência de relatórios gerenciais**: Falta de dados para avaliar desempenho e gargalos.
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Em_Desenvolvimento-blue" alt="Status do Projeto">
+  <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-green" alt="Licença MIT">
+</p>
 
 ---
 
-## 💡 **Solução**
-
-O **ClickDesk** oferece uma plataforma única e intuitiva para empresas gerenciarem todos os seus chamados em um só lugar. A solução inclui:
-
-- **Centralização de Chamados**: Organiza todas as solicitações em um único painel.
-- **Eficiência no Atendimento**: Otimiza o tempo de resposta e evita chamados duplicados.
-- **Acompanhamento em Tempo Real**: Monitora o andamento de todos os chamados e tarefas.
-- **Relatórios Gerenciais**: Oferece gráficos e relatórios de desempenho do time.
-- **Acessibilidade**: Fácil de usar tanto para administradores quanto para funcionários.
-
----
-
-## 📋 **Backlog do Produto**
-
-### Funcionalidades Principais
-
-| **Funcionalidade**                                | **Status**          | **Prioridade** | **Descrição** |
-|---------------------------------------------------|---------------------|----------------|---------------|
-| **Sistema de login e registro de usuários**       | Em Desenvolvimento  | Alta           | Permite a autenticação dos usuários para garantir segurança. |
-| **Sistema de rastreabilidade de chamados**        | Pendente            | Alta           | Organiza chamados em tempo real e mantém um histórico detalhado. |
-| **Notificações em tempo real**                    | Pendente            | Alta           | Alerta os usuários sobre novos chamados e atualizações. |
-| **Relatórios de desempenho**                      | Pendente            | Média          | Oferece gráficos e relatórios de desempenho do time. |
+### 📖 Índice
+* [O Desafio](#-desafio)
+* [A Solução](#-solução)
+* [Telas da Aplicação](#-telas-da-aplicação)
+* [Backlog do Produto](#-backlog-do-produto)
+* [Cronograma de Sprints](#-cronograma-de-sprints)
+* [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+* [Guia de Instalação](#-manual-de-instalação-e-execução)
+* [Equipe do Projeto](#-equipe)
+* [Como Contribuir](#-como-contribuir)
+* [Licença](#-licença)
 
 ---
 
-## 🏃‍ **Cronograma de Sprints**
+**ClickDesk** é uma solução de helpdesk desenvolvida para empresas de pequeno e médio porte. Com foco em **simplicidade**, **acessibilidade** e **usabilidade**, o ClickDesk é um sistema centralizado para gerenciamento de solicitações, organização de chamados, e otimização do atendimento ao cliente.
 
-O cronograma das sprints será acompanhado através dos seguintes links. Clique nos links abaixo para acompanhar o progresso de cada sprint:
+## 🎯 Desafio
 
-- **[Sprint 1 - 01/10 a 15/10](https://link-do-sprint-1)**: Implementação da interface de login e sistema de autenticação.
-- **[Sprint 2 - 16/10 a 30/10](https://link-do-sprint-2)**: Desenvolvimento do sistema de rastreabilidade e painel de chamados.
-- **[Sprint 3 - 01/11 a 15/11](https://link-do-sprint-3)**: Implementação das notificações em tempo real e funcionalidades de relatórios.
+O ClickDesk surgiu para resolver problemas comuns enfrentados por empresas sem um sistema de helpdesk estruturado, tais como:
+- **Desorganização dos chamados:** Solicitações perdidas em múltiplos canais.
+- **Falta de rastreabilidade:** Dificuldade em acompanhar o histórico e andamento dos chamados.
+- **Baixa eficiência:** Chamados repetidos, esquecidos ou mal priorizados.
+- **Ausência de relatórios gerenciais:** Falta de dados para avaliar desempenho.
 
----
+## 💡 Solução
 
-## 💻 **Tecnologias**
+O ClickDesk oferece uma plataforma única e intuitiva para gerenciar todos os chamados em um só lugar, incluindo:
+- **Centralização de Chamados:** Um único painel para todas as solicitações.
+- **Acompanhamento em Tempo Real:** Monitore o andamento de todos os chamados.
+- **Relatórios Gerenciais:** Gráficos e relatórios de desempenho do time.
+- **Acessibilidade:** Fácil de usar para administradores e funcionários.
 
-### **Backend**:
+## 🖼️ Telas da Aplicação
+<p align="center">
+  <img src="URL_DA_SUA_IMAGEM_AQUI" alt="Tela do ClickDesk" width="600"/>
+</p>
 
-- **C#**: Linguagem principal para o desenvolvimento da API.
-- **SQL Server**: Sistema de gerenciamento do banco de dados.
-- **ASP.NET Core**: Framework para o desenvolvimento da API.
-- **SignalR**: Para notificações em tempo real.
+## 📋 Backlog do Produto
 
-### **Frontend**:
+| Funcionalidade | Status | Prioridade | Descrição |
+|---|---|---|---|
+| Sistema de login e registro de usuários | 🚧 Em Desenvolvimento | Alta | Permite a autenticação dos usuários para garantir segurança. |
+| Sistema de rastreabilidade de chamados | ⏳ Pendente | Alta | Organiza chamados em tempo real e mantém um histórico detalhado. |
+| Notificações em tempo real | ⏳ Pendente | Alta | Alerta os usuários sobre novos chamados e atualizações. |
+| Relatórios de desempenho | ⏳ Pendente | Média | Oferece gráficos e relatórios de desempenho do time. |
 
-- **React**: Biblioteca JavaScript para construção da interface web.
-- **Next.js**: Framework React para construção da aplicação web.
-- **Tailwind CSS**: Framework CSS para estilização da interface.
+## 🏃‍ Cronograma de Sprints
 
-### **Desktop**:
+O cronograma será acompanhado através dos seguintes links:
+- **Sprint 1 (01/10 a 15/10):** [Implementação da interface de login e sistema de autenticação.](URL_PARA_SPRINT_1)
+- **Sprint 2 (16/10 a 30/10):** [Desenvolvimento do sistema de rastreabilidade e painel de chamados.](URL_PARA_SPRINT_2)
+- **Sprint 3 (01/11 a 15/11):** [Implementação das notificações e relatórios.](URL_PARA_SPRINT_3)
 
-- **Electron**: Framework para construção de aplicações desktop com tecnologias web.
+## 💻 Tecnologias Utilizadas
 
-### **Mobile**:
+#### Backend
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![SignalR](https://img.shields.io/badge/SignalR-0066CC?style=for-the-badge&logo=dotnet&logoColor=white)
 
-- **React Native**: Framework para criação de aplicativos móveis.
+#### Frontend
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
----
+#### Desktop & Mobile
+![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
-## 📖 **Manual de Instalação e Execução**
+## 📖 Manual de Instalação e Execução
 
-### **Pré-requisitos**
+#### Pré-requisitos
+Antes de iniciar, certifique-se de ter instalado:
+- [Node.js](https://nodejs.org/) (versão 16+)
+- [Git](https://git-scm.com/)
+- [.NET SDK](https://dotnet.microsoft.com/download)
+- [SQL Server](https://www.microsoft.com/sql-server/sql-server-downloads)
 
-Antes de iniciar, certifique-se de ter os seguintes requisitos instalados:
-
-- **Node.js** (versão 16+): Para execução do código frontend.
-- **Git**: Para clonar o repositório.
-- **SQL Server**: Para rodar o banco de dados local.
-- **Yarn ou NPM**: Gerenciador de pacotes.
-
-### **Instalação**
-
-1. **Clone o repositório**:
+#### Passos de Instalação
+1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seuusuario/ClickDesk.git
+   git clone [https://github.com/seuusuario/ClickDesk.git](https://github.com/seuusuario/ClickDesk.git)
    cd ClickDesk
-### **Instale as dependências:**
+Instale as dependências do Backend:
 
-### **Para o frontend:**
+Bash
 
-- bash
-- Copiar código
-- cd apps/web
-- npm install
+cd backend
+dotnet restore
+Instale as dependências do Frontend (Web):
 
-### **Para o backend:**
+Bash
 
-- bash
-- Copiar código
-- cd backend
-- dotnet restore
-- dotnet build
-- Configuração do Banco de Dados:
+cd apps/web
+npm install
+(Repita o passo de npm install para as pastas desktop e mobile)
 
-### **Crie um banco de dados no SQL Server e configure a string de conexão no arquivo .env**
+Configure o Banco de Dados:
 
-### **Executando a Aplicação:**
+Crie um banco de dados no SQL Server.
 
-### **Para Web:**
+Configure a string de conexão no arquivo appsettings.json do backend.
 
-- bash
-- Copiar código
-- cd apps/web
-- npm run dev
+Execute as migrações: dotnet ef database update
 
-Para Desktop:
+Executando a Aplicação
+Backend:
 
-bash
-Copiar código
+Bash
+
+cd backend
+dotnet run
+Web:
+
+Bash
+
+cd apps/web
+npm run dev
+Desktop:
+
+Bash
+
 cd apps/desktop
 npm start
-Para Mobile:
+Mobile:
 
-bash
-Copiar código
+Bash
+
 cd apps/mobile
-npm run android  # ou npm run ios para iOS
+npm run android
+# ou npm run ios
 🧑‍🤝‍🧑 Equipe
-Membro	Função	GitHub/LinkedIn
+Membro	Função	Contato
 André Barbosa	Líder do Projeto / Product Owner	GitHub
 Erika Cordeiro	Desenvolvedora Desktop / Scrum Master	LinkedIn
 Vinicius Fagundes	Desenvolvedor Mobile/Web	GitHub
 Kaique Uchoa	Desenvolvedor Desktop/Mobile	LinkedIn
 
-📝 Licença
-Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
-
-### **🔧 Como Contribuir**
-
+Exportar para as Planilhas
+🔧 Como Contribuir
 Fork o repositório.
 
-- Crie sua branch de feature (git checkout -b feature/nova-feature).
+Crie sua branch de feature: git checkout -b feature/nova-feature
 
-- Commit suas mudanças (git commit -m 'Adiciona nova feature').
+Commit suas mudanças: git commit -m 'Adiciona nova feature'
 
-- Push para a branch (git push origin feature/nova-feature).
+Push para a branch: git push origin feature/nova-feature
 
-- Abra uma pull request.
+Abra uma Pull Request.
 
-### **🎓 Documentação Completa**
-Para mais detalhes sobre a arquitetura, funcionamento e implementação do sistema, consulte a documentação completa do projeto no Wiki do GitHub.
-
+📝 Licença
+Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
